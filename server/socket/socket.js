@@ -10,6 +10,7 @@ const io = new Server(server, {
   cors: {
     origin: "https://threads-clone-j1hd.vercel.app",
     methods: ["GET", "POST"],
+    credentials: true,
   },
 });
 
