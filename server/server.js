@@ -21,7 +21,7 @@ cloudinary.config({
 });
 // Test
 app.get("/", (req, res) => {
-  req.send("Threads Clone")
+  res.send("Threads Clone")
 });
 
 // Middlewares
